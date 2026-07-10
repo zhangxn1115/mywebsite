@@ -31,6 +31,7 @@ export default function Home() {
           <div className="inviteMain">
             <h1 className="inviteLabel">Complete your first 70 deliveries within 30 days and earn at least <span className="rewardAmount">$630</span>.</h1>
             <ReferralActions />
+            <p className="regionNote">For applicants in the United States only.</p>
           </div>
           <div className="roadScene" aria-hidden="true">
             <div className="sun" />
