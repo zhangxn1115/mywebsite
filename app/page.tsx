@@ -5,7 +5,7 @@ export default function Home() {
     <main className="pageShell">
       <header className="personalHeader">
         <a className="personalBrand" href="#top" aria-label="回到页面顶部">
-          <span className="logoSlot" aria-label="Logo 图片位置">LOGO</span>
+          <img className="siteLogo" src="/drive-and-earn-logo.webp" alt="DriveAndEarn.net" width="560" height="84" />
         </a>
       </header>
 
