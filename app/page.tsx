@@ -46,6 +46,9 @@ export default function Home() {
           <p className="disclaimer">This is a personal referral page and is not an official Uber website. Eligibility requirements, rewards, and promotional terms are subject to Uber&apos;s official information.</p>
         </aside>
       </section>
+      <footer className="siteFooter">
+        <p>Copyright © 2026 DriveAndEarn.net. All rights reserved.</p>
+      </footer>
     </main>
   );
 }
