@@ -2,8 +2,16 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Uber 司机与配送伙伴邀请｜开车出发",
-  description: "通过我的个人邀请链接申请成为 Uber 司机或配送伙伴。",
+  title: "Uber Driver Referral | 70 Deliveries in 30 Days",
+  description: "Uber driver and delivery referral opportunity: complete your first 70 deliveries within 30 days and earn at least $630, subject to Uber's official terms.",
+  alternates: { canonical: "https://zhangxn1115.github.io/mywebsite/" },
+  robots: { index: true, follow: true },
+  openGraph: {
+    type: "website",
+    url: "https://zhangxn1115.github.io/mywebsite/",
+    title: "Uber Driver Referral | 70 Deliveries in 30 Days",
+    description: "Complete your first 70 deliveries within 30 days and earn at least $630, subject to Uber's official terms.",
+  },
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
