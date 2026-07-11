@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 
-const referralUrl = "https://www.uber.com/signup/drive/deliver/?invite_code=vyd3jny";
+const referralUrl = "https://www.uber.com/signup/drive/deliver/?invite_code=cenygju";
 
 export function ReferralActions() {
   const [copied, setCopied] = useState(false);
